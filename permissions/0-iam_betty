@@ -1,2 +1,2 @@
 #!/bin/bash
-exec su - betty -c "/bin/bash"
+su betty

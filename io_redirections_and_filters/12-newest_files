@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d | wc -l
+ls -lt | head -n 11 | tail -n 10 | awk '{print $9}'
